@@ -25,10 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   color: var(--color-text);
-  background:
-    radial-gradient(circle at top left, rgb(234 139 46 / 8%), transparent 24%),
-    radial-gradient(circle at top right, rgb(47 143 141 / 9%), transparent 30%),
-    linear-gradient(180deg, #f7f2e9 0%, var(--color-background) 100%);
+  background: linear-gradient(180deg, #f8f4ec 0%, var(--color-background) 100%);
   font-family: var(--font-body), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
