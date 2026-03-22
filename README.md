@@ -26,6 +26,22 @@ npm run build
 npm run start
 ```
 
+## 懒猫微服 LPK 打包
+
+项目已经补齐懒猫微服所需的打包文件：
+
+- `build.sh`
+- `lzc-build.yml`
+- `lzc-manifest.yml`
+- `lzc-icon.png`
+
+本地生成 `lpk` 安装包的命令：
+
+```bash
+sh build.sh
+npx @lazycatcloud/lzc-cli project build -o wuolongfeifu.lpk
+```
+
 ## 主要文件说明
 
 - `src/app/page.tsx`

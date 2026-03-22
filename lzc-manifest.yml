@@ -1,0 +1,12 @@
+lzc-sdk-version: "0.1"
+package: cloud.lazycat.app.wuolongfeifu
+version: 0.1.0
+name: 沃垄飞服
+description: 沃垄飞服无人机服务介绍页
+license: Proprietary
+homepage: https://github.com/liuan365/wuolongfeifu
+author: liuan365
+application:
+  subdomain: wuolongfeifu
+  routes:
+    - /=file:///lzcapp/pkg/content/
